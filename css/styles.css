@@ -1,0 +1,13 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #59A08D, #118D6D) !important;
+}
+.navbar-brand img {
+    height: 40px; /* Adjust logo height */
+    width: auto; /* Keep aspect ratio */
+}
+/* Small Carousel */
+#smallCarousel .carousel-item img {
+    height: 250px; /* Adjust small height */
+    object-fit: cover;
+}
