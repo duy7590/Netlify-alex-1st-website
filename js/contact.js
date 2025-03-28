@@ -7,7 +7,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     message: document.getElementById("message").value
   };
 
-  const response = await fetch("https://c016-185-175-56-134.ngrok-free.app", { // ✅ Add `/contact`
+  const response = await fetch("https://c016-185-175-56-134.ngrok-free.app/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(formData)
