@@ -34,7 +34,7 @@ function setCookie(name, value, days) {
   
     // Send to Flask backend
     try {
-      await fetch("https://YOUR-NGROK-ID.ngrok-free.app/track-visitor", {
+      await fetch("https://c016-185-175-56-134.ngrok-free.app/track-visitor", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
